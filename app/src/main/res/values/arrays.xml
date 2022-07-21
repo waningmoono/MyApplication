@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="resId">
+        <item>@drawable/chihuahua</item>
+        <item>@drawable/maltese</item>
+        <item>@drawable/miniaturepinscher</item>
+        <item>@drawable/papillon</item>
+        <item>@drawable/pomeranian</item>
+        <item>@drawable/poodle</item>
+        <item>@drawable/shihtzu</item>
+        <item>@drawable/miniatureschnauzer</item>
+        <item>@drawable/yorkshireterrier</item>
+        <item>@drawable/airdaleterrier</item>
+        <item>@drawable/scottishterrier</item>
+        <item>@drawable/beagle</item>
+        <item>@drawable/dachshund</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+        <item>@drawable/dog_1</item>
+    </integer-array>
+
+    <string-array name="title">
+        <item>치와와</item>
+        <item>말티즈</item>
+        <item>미니어처 핀셔</item>
+        <item>파피용</item>
+        <item>포메라니안</item>
+        <item>푸들</item>
+        <item>시추</item>
+        <item>미니어처 슈나우저</item>
+        <item>요크셔 테리어</item>
+        <item>에어데일 테리어</item>
+        <item>스코티시 테리어</item>
+        <item>비글</item>
+        <item>닥스훈트</item>
+        <item>아프간 하운드</item>
+        <item>그레이 하운드</item>
+        <item>바셋 하운드</item>
+        <item>코커스패니얼</item>
+        <item>골든 리트리버</item>
+        <item>포인터</item>
+        <item>세터</item>
+        <item>비즐라</item>
+        <item>시베리안 허스키</item>
+        <item>알래스칸 말라뮤트</item>
+        <item>도베르만 핀셔</item>
+        <item>로트 와일러</item>
+        <item>버니즈 마운틴독</item>
+        <item>보더콜리</item>
+        <item>셔틀랜드 쉽독</item>
+        <item>웰시코기</item>
+        <item>저먼 셰퍼드</item>
+        <item>올드 잉글리시 쉽독</item>
+        <item>러프콜리</item>
+        <item>진돗개</item>
+        <item>삽살개</item>
+        <item>풍산개</item>
+        <item>불독</item>
+        <item>시바견</item>
+        <item>달마시안</item>
+        <item>비숑프리제</item>
+        <item>차우차우</item>
+
+
+
+    </string-array>
+
+    <string-array name="content">
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Toy Group</item>
+        <item>Terrier Group</item>
+        <item>Terrier Group</item>
+        <item>Terrier Group</item>
+        <item>Terrier Group</item>
+        <item>Hound Group</item>
+        <item>Hound Group</item>
+        <item>Hound Group</item>
+        <item>Hound Group</item>
+        <item>Hound Group</item>
+        <item>Sporting Group</item>
+        <item>Sporting Group</item>
+        <item>Sporting Group</item>
+        <item>Sporting Group</item>
+        <item>Sporting Group</item>
+        <item>Working Group</item>
+        <item>Working Group</item>
+        <item>Working Group</item>
+        <item>Working Group</item>
+        <item>Working Group</item>
+        <item>Herding Group</item>
+        <item>Herding Group</item>
+        <item>Herding Group</item>
+        <item>Herding Group</item>
+        <item>Herding Group</item>
+        <item>Herding Group</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+        <item>in addition</item>
+    </string-array>
+</resources>

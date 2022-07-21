@@ -22,7 +22,6 @@ public class ResultActivity extends AppCompatActivity {
         back_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(ResultActivity.this, "back 버튼 클릭", Toast.LENGTH_SHORT).show();
                 onBackPressed();
             }
         });

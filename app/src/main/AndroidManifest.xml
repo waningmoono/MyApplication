@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
-            android:name=".ResultActivity"
+            android:name=".BookActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".ResultActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

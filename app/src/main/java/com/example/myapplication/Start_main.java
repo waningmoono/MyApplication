@@ -10,12 +10,13 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import com.google.android.material.snackbar.Snackbar;
 
 public class Start_main extends AppCompatActivity{
 
     private FloatingActionButton camera_btn;
     private FloatingActionButton photo_btn;
-    private FloatingActionButton heart_btn;
+    private FloatingActionButton book_btn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -34,7 +35,7 @@ public class Start_main extends AppCompatActivity{
 
         camera_btn = findViewById(R.id.camera_btn);
         photo_btn = findViewById(R.id.photo_btn);
-        heart_btn = findViewById(R.id.heart_btn);
+        book_btn = findViewById(R.id.book_btn);
 
         //카메라 플로팅 버튼 클릭
         camera_btn.setOnClickListener(new View.OnClickListener() {
@@ -52,10 +53,11 @@ public class Start_main extends AppCompatActivity{
             }
         });
 
-        heart_btn.setOnClickListener(new View.OnClickListener() {
+        book_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Start_main.this, "하트 버튼 클릭", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Start_main.this, BookActivity.class);
+                startActivity(intent);
             }
         });
     }
