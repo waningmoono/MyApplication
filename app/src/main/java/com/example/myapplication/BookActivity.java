@@ -1,24 +1,33 @@
 package com.example.myapplication;
 
+import android.content.DialogInterface;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Adapter;
+import android.widget.AdapterView;
+import android.widget.LinearLayout;
 import android.widget.ListView;
+import android.widget.Toast;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.appcompat.widget.SearchView;
 
-public class BookActivity extends AppCompatActivity {
+import java.util.ArrayList;
+
+public class BookActivity extends AppCompatActivity implements View.OnClickListener{
 
     private BookCustomAdapter adapter;
     private ListView listView;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_book);
+
+        findViewById(R.id.info_btn).setOnClickListener(this);
 
         adapter = new BookCustomAdapter();
         listView = (ListView) findViewById(R.id.listView);
@@ -31,6 +40,15 @@ public class BookActivity extends AppCompatActivity {
         layoutParams.flags = WindowManager.LayoutParams.FLAG_DIM_BEHIND;
         layoutParams.dimAmount = 0.8f;
         getWindow().setAttributes(layoutParams);
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                adapter.notifyDataSetChanged();
+                Toast.makeText(getApplicationContext(), (i+1)+"번째", Toast.LENGTH_SHORT).show();
+            }
+        });
+
     }
 
     private void setData() {
@@ -48,7 +66,21 @@ public class BookActivity extends AppCompatActivity {
         }
     }
 
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.info_btn:
+                new AlertDialog.Builder(this)
+                        .setTitle("알람 팝업")
+                        .setMessage("팝업 창의 내용입니다.\n\n TEST!!")
+                        .setNeutralButton("닫기", new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dig,int sumthin){
+                            }
+                        })
+                        .show(); // 팝업창 보여줌
+                break;
 
 
-
+        }
+    }
 }

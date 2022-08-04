@@ -29,9 +29,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.696">
-
-    </ListView>
+        app:layout_constraintVertical_bias="1.0"></ListView>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/info_btn"
@@ -49,7 +47,6 @@
         app:tint="@null"
         tools:ignore="SpeakableTextPresentCheck"
         tools:targetApi="s" />
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

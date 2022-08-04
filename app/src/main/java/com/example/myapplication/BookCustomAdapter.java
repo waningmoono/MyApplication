@@ -66,4 +66,8 @@ public class BookCustomAdapter extends BaseAdapter{
     public void addItem(BookCustomDTO dto) {
         listCustom.add(dto);
     }
+
+
 }
+
+

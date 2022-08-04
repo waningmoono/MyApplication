@@ -1,9 +1,12 @@
 package com.example.myapplication;
 
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.Toast;
 
 import androidx.annotation.Nullable;
@@ -37,11 +40,13 @@ public class Start_main extends AppCompatActivity{
         photo_btn = findViewById(R.id.photo_btn);
         book_btn = findViewById(R.id.book_btn);
 
+
         //카메라 플로팅 버튼 클릭
         camera_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(Start_main.this, "카메라 버튼 클릭", Toast.LENGTH_SHORT).show();
+                Intent intent = new Intent(Start_main.this, app.ij.mlwithtensorflowlite.CameraActivity.class);
+                startActivity(intent);
             }
         });
 
@@ -61,4 +66,6 @@ public class Start_main extends AppCompatActivity{
             }
         });
     }
+
+
 }
